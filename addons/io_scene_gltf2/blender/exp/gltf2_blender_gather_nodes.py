@@ -484,7 +484,7 @@ def __get_correction_node(blender_object, export_settings):
         camera=None,
         children=[],
         extensions=None,
-        extras=None,
+        extras=blender_boject.extras,
         matrix=None,
         mesh=None,
         name=blender_object.name + '_Orientation',
